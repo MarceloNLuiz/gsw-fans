@@ -1,0 +1,176 @@
+html{
+    font-size: 75%;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu Mono', monospace; 
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+
+.cabecalho{
+    background-image: url(../images/logo.jpg);
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.cabecalho nav{
+    display: inline;
+    position: relative;    
+}
+
+.cabecalho ul li{
+    display: inline-block; 
+    padding: 10px 50px 10px ;
+    font-size: 35px;
+}
+
+.cabecalho ul li a:hover{
+    font-weight: bold;
+    color: #DCA040
+}
+
+.painel{
+    background: url(../images/painel.jpg) center center 
+    no-repeat;
+    background-size: cover;
+    height: 860px;        
+}
+
+.secao-com-texto{
+    padding: 30px;
+    text-align: center;
+  
+}
+
+.secao-com-texto ul{
+    padding: 15px;
+    text-align: center;
+    color: #007fff;      
+}
+
+.secao-com-texto h2{
+    font-size: 80px;
+    font-weight: 600;
+    margin: 15px 5px;
+    color: #DCA040
+}
+
+.secao-com-texto p{
+    font-size: 30px;
+    text-align: center;
+    width: auto;
+    padding: 50px 30px;
+    color: #007fff      
+}
+
+.ladrilho .grande{
+    background: url(../images/imagem-grande.jpg) center center
+    no-repeat;
+    height: 600px;
+    width: 50%;
+}
+
+.ladrilho .medio{
+    background: url(../images/imagem-media.jpg) top center
+    no-repeat;
+    height: 300px;
+    width: 50%;
+}
+
+.ladrilho .pequeno{
+    background: url(../images/imagem-pequena.jpg) top center
+    no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .pequeno-1{
+    background: url(../images/imagem-pequena-1.jpg) top center
+    no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho div{
+    float: left;
+}
+
+.arena{
+    background: url(../images/arena.jpg) top center
+    no-repeat;
+    padding: 15px;
+    height: 700px;
+    position: relative;
+    background-size: cover;  
+}
+
+.secao-com-texto .arena{
+    padding: 30px   ;
+}
+
+.camisas-aposentadas{
+    background: url(../images/camisas-aposentadas.jpg) top center
+    no-repeat;
+    padding: 15px;
+    height: 500px;
+    position: relative;
+}
+
+.contato address{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contato .texto{
+    position: relative;
+    top: 30%;
+    left: 50%; 
+}
+
+.rodape{
+    background: url(../images/logo.jpg) center center
+    no-repeat;
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-size: cover;    
+}   
+
+.rodape ul{
+    float: right;
+    margin-top: 30px;
+}
+
+.rodape ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.rodape ul li a{
+    color: white;
+}
+
+.rodape ul li a:hover{
+    font-weight: bold;
+    color:#DCA040  
+}
+
+.rodape .redes-sociais .facebook,
+.rodape .redes-sociais .instagran{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.rodape .redes-sociais{
+    float: right;
+    clear: both;
+}
+
+.rodape .conteudo-de-baixo{
+    margin-top: 40px;
+}

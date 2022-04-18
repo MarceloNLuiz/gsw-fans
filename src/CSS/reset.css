@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;   
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;   
+    color: azure;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
