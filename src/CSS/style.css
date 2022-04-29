@@ -104,20 +104,30 @@ body{
     no-repeat;
     padding: 15px;
     height: 700px;
-    position: relative;
+    position: static;
     background-size: cover;  
 }
 
 .secao-com-texto .arena{
-    padding: 30px   ;
+    padding: 0px;
 }
 
 .camisas-aposentadas{
-    background: url(../images/camisas-aposentadas.jpg) top center
+    background: url(../images/camisas-aposentadas.jpg) center
     no-repeat;
-    padding: 15px;
-    height: 500px;
+    padding: 0px;
+    width: 1240px; 
+    height: 800px;
     position: relative;
+}
+
+.numeros-aposentados td{
+    text-align: center;
+    color: #007fff;
+    font-size: 30px;
+    margin: 30px;
+    padding: 30px;
+
 }
 
 .contato address{
@@ -135,19 +145,21 @@ body{
     background: url(../images/logo.jpg) center center
     no-repeat;
     position: relative;
-    width: 800px;
+    width: 1330px;
     height: 600px;
-    background-size: cover;    
+    background-size: cover;  
+    font-size: 30px;  
 }   
 
 .rodape ul{
     float: right;
-    margin-top: 30px;
+    
 }
 
 .rodape ul li{
-    display: inline-block;
-    padding: 15px;
+   display: inline;
+   padding: 15px;
+      
 }
 
 .rodape ul li a{
@@ -156,21 +168,17 @@ body{
 
 .rodape ul li a:hover{
     font-weight: bold;
-    color:#DCA040  
+    color:#007fff  
 }
 
 .rodape .redes-sociais .facebook,
 .rodape .redes-sociais .instagran{
-    width: 20px;
-    height: 20px;
-    margin: 10px;
+    width: 40px;
+    height: 40px;
+    margin: 15px;
 }
 
 .rodape .redes-sociais{
     float: right;
     clear: both;
-}
-
-.rodape .conteudo-de-baixo{
-    margin-top: 40px;
 }
